@@ -76,13 +76,6 @@ echo "nameserver  8.8.8.8" >> /etc/resolv.conf && rm /etc/apt/sources.list.d/pve
 
 #### 如果这个脚本帮到你了，麻烦点一下右上角的star小星星^_^
 
-## qq交流群: 878510703
-
-![qq](http://upload-images.jianshu.io/upload_images/4171480-e0204ead0fb41d5e.jpg)
-
-## 如果觉得好的请捐赠一下^_^
-![alipay](https://upload-images.jianshu.io/upload_images/4171480-04c3ebb5c11cfdf9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 
 感谢捐赠人员！
 
