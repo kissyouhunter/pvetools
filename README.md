@@ -353,10 +353,9 @@ new feature:
 Use root accout to run.
 
 ```
-export LC_ALL=en_US.UTF-8
-apt update && apt -y install git && git clone https://github.com/ivanhao/pvetools.git
+apt update && apt -y install git && git clone https://github.com/kissyouhunter/pvetools.git
 cd pvetools
-./pvetools.sh
+bash pvetools.sh
 ```
 >If update error,you can remove enterprise source by : `rm /etc/apt/sources.list.d/pve-enterprise.list` and retry.
 
@@ -377,9 +376,7 @@ cd pvetools
 1. delete pvetools folder
 
 ### Run
-cd to pvetools folder,and type:`./pvetools.sh`
-* you should `chmod +x pvetools.sh` first.
-
+cd to pvetools folder,and type:` bash pvetools.sh`
 
 #### email configration note：
 
