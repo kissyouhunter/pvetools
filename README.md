@@ -22,15 +22,15 @@ for english user,please look the end of readme.
 
 ```
 export LC_ALL=en_US.UTF-8
-apt update && apt -y install git && git clone https://github.com/ivanhao/pvetools.git
+apt update && apt -y install git && git clone https://github.com/kissyouhunter/pvetools.git
 cd pvetools
-./pvetools.sh
+bash pvetools.sh
 ```
 
 ### 一键无脑安装:
 
 ```
-echo "nameserver  8.8.8.8" >> /etc/resolv.conf && rm /etc/apt/sources.list.d/pve-enterprise.list && export LC_ALL=en_US.UTF-8 && apt update && apt -y install git && git clone https://github.com/ivanhao/pvetools.git && cd pvetools && ./pvetools.sh
+apt update && apt -y install git && git clone https://github.com/kissyouhunter/pvetools.git && cd pvetools && bash pvetools.sh
 
 ```
 
@@ -51,9 +51,8 @@ echo "nameserver  8.8.8.8" >> /etc/resolv.conf && rm /etc/apt/sources.list.d/pve
 
 在shell中进入pvetools目录，输入
 `
-./pvetools.sh
+bash pvetools.sh
 `
-* 如果提示没有权限，输入`chmod +x ./*.sh`
 
 ### 主界面
 
