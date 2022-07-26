@@ -108,7 +108,35 @@ bash pvetools.sh
 
 zm （来源qq）
 
+*阳 (来源支付宝)
+
+**鑫 (来源支付宝)
+
+**尧 (来源支付宝)
+
+*潋 (来源支付宝)
+
+**泽 (来源支付宝)
+
 # [版本说明]
+
+##### v2.3.2
+
+发布时间：2022.07.14
+
+new feature:
+
+* 温度显示上方增加CPU频率显示。
+* add cpu frequency display.
+
+
+##### v2.3.1
+
+发布时间：2022.07.13
+
+* 调整省电模式powersave为conservative。
+* change cpufrequtils from 'powersave' to 'conservative'。
+
 
 ##### v2.3.0
 
